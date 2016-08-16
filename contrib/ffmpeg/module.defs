@@ -12,7 +12,6 @@ $(eval $(call import.CONTRIB.defs,FFMPEG))
 FFMPEG.FETCH.url =  http://download.handbrake.fr/handbrake/contrib/libav-12_alpha1.tar.gz
 FFMPEG.FETCH.url += https://libav.org/releases/libav-12_alpha1.tar.gz
 FFMPEG.FETCH.md5 =  28aca38f01388c0f306e60e96b9f2bb1
-FFMPEG.EXTRACT.tarbase = libav-master
 
 FFMPEG.CONFIGURE.deps  =
 FFMPEG.CONFIGURE.host  =
